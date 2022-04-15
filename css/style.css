@@ -1,0 +1,42 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.chess-parent {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttonsList {
+    list-style-type: none;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons {
+    width: 50px;
+    height: 50px;
+} 
+
+.button-box {
+   width: 50px;
+   height: 50px;
+   display: flex;
+}
+
+.cordinata-x {
+    width: 200px;
+    height: 80px;
+    background-color: rgba(255, 0, 0, 0.507);
+}
+
+.cordinata-y {
+    width: 200px;
+    height: 80px;
+    background-color: rgba(137, 43, 226, 0.582);
+}
